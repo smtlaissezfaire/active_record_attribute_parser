@@ -2,19 +2,19 @@ module ActiveRecordAttributeParser
   module Version
     class << self
       def string
-        @string ||= File.read(File.dirname(__FILE__) + "/../../VERSION").chomp
+        "#{major}.#{minor}.#{tiny}"
       end
     
       def major
-        version_parts[0]
+        0
       end
       
       def minor
-        version_parts[1]
+        1
       end
       
       def tiny
-        version_parts[2]
+        2
       end
       
     private
