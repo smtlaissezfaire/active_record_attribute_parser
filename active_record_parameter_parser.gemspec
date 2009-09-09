@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{active_record_parameter_parser}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Scott Taylor", "Rails Core Team"]
@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "active_record_parameter_parser.gemspec",
      "lib/active_record_attribute_parser.rb",
      "lib/active_record_attribute_parser/parser.rb",
      "lib/active_record_attribute_parser/version.rb",
@@ -53,8 +54,11 @@ Gem::Specification.new do |s|
     s.specification_version = 2
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+      s.add_runtime_dependency(%q<smtlaissezfaire-using>, [">= 0"])
     else
+      s.add_dependency(%q<smtlaissezfaire-using>, [">= 0"])
     end
   else
+    s.add_dependency(%q<smtlaissezfaire-using>, [">= 0"])
   end
 end
