@@ -1,6 +1,6 @@
 require "using"
 
-module PrototypeProject
+module ActiveRecordAttributeParser
   extend Using
   
   using :Version

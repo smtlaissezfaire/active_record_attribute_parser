@@ -1,2 +1,2 @@
 require "spec"
-require File.expand_path(File.dirname(__FILE__) + "/../lib/prototype_project")
+require File.expand_path(File.dirname(__FILE__) + "/../lib/active_record_attribute_parser")
