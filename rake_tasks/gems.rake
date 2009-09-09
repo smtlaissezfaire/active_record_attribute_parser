@@ -8,6 +8,7 @@ begin
     gemspec.email       = "scott@railsnewbie.com"
     gemspec.homepage    = "http://smtlaissezfaire.github.com/active_record_parameter_parser"
     gemspec.authors     = ["Scott Taylor", "Rails Core Team"]
+    gemspec.add_dependency "smtlaissezfaire-using"
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
