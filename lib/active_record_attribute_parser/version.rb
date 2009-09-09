@@ -1,4 +1,4 @@
-module PrototypeProject
+module ActiveRecordAttributeParser
   module Version
     class << self
       def string
