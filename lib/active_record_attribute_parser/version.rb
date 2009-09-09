@@ -14,7 +14,7 @@ module ActiveRecordAttributeParser
       end
       
       def tiny
-        1
+        2
       end
       
     private
